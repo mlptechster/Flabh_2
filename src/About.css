@@ -1,0 +1,153 @@
+html,
+body {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  /* background: linear-gradient(to top, #ad9595, #9d6b6b, #000000); */
+}
+.about{
+  background: linear-gradient(to top, #ad9595, #9d6b6b, #000000);
+}
+.heading h1 {
+  color: aliceblue;
+  margin-right: 100px;
+  font-size: 100px;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-content {
+  background-color: #2d2424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom: 40px solid #4b3c3c;
+}
+
+.first-content p {
+  max-width: 400px;
+  color: aliceblue;
+}
+
+.sec-content {
+  background: linear-gradient(to top, #371111, #3a2323, #a98b8b);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 40px solid #4b3c3c;
+}
+.sec-content h3,
+p {
+  color: aliceblue;
+  max-width: 400px;
+}
+
+.set_us {
+  background: linear-gradient(to right, #ad9595, #9d6b6b, #000000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.set_us h3 {
+  color: aliceblue;
+}
+
+.new_container {
+  background: linear-gradient(to right, #ad9595, #9d6b6b, #000000);
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  /* border-bottom: 40px solid rgb(44, 43, 43); */
+  /* box-shadow: 0px 80px 10px -15px rgba(0, 0, 0, 0.5); */
+}
+
+.new_left-card {
+  flex: 1; /* Take up remaining space */
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.new_right-cards {
+  flex: 1;
+  margin-right: 30px;
+  /* Take up remaining space */
+}
+
+.cards {
+  background: linear-gradient(to top, #ad9595, #7b5353);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px; /* Add some space between cards */
+}
+
+.cards:last-child {
+  margin-bottom: 0; /* Remove margin from last card */
+}
+
+.cards h2 {
+  margin-top: 0;
+  color: black;
+}
+
+.cards p {
+  margin: 0;
+  color: black;
+  font-weight: bold;
+}
+
+.offer_container {
+  background: linear-gradient(to top, #000000, #252424);
+  margin: 0;
+  /* display: flex; */
+}
+
+.what-we-offer h3 {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  margin-top: 20px;
+}
+.three-card {
+  gap: 80px;
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-cards {
+  background: linear-gradient(to bottom, #d9d9d9, #ffffff, #000000);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.more-cards h2{
+  color: black;
+}
+
+
+.last-content {
+  background: linear-gradient(to right,#150101,#000000,#3C0303);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+ 
+}
+.last-content h3,
+p {
+  color: rgb(181, 192, 202);
+  max-width: 400px;
+}
+

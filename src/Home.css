@@ -1,0 +1,134 @@
+/* Home.css */
+
+html, body {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top,rgb(21, 3, 3),black);
+  }
+  
+  
+ 
+  
+  .first{
+   
+    margin-top: 50px;
+    margin-left: 40px;
+    max-width: 800px;
+    margin-right: auto;
+    padding: 0,20px;
+  }
+  .wrap{
+    display: flex;
+    flex-direction: row;
+  }
+  .Image img{
+    width: 500px;
+  }
+  
+
+.first h1{
+    color: aliceblue;
+    font-size:xxx-large;
+    font-weight: bold;
+    margin: 0;
+    
+}
+.yourself{
+    color: aliceblue;
+    font-size:xxx-large;
+    font-weight: bold;
+    margin: 0;
+    display: inline-block;
+}
+.first p{
+    margin-top: 0;
+    color: aliceblue;
+    text-align: justify;
+    display: inline;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    margin-top: 150px;
+}
+
+.second h1{
+    color: aliceblue;
+    margin: 0;
+}
+
+.second p{
+    color: aliceblue;
+    max-width: 600px;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    gap: 30px;
+    margin:50px 80px;
+    /* align-items: center; */
+  }
+  
+  .left-card {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    
+  }
+  
+  .right-cards {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card {
+    background: linear-gradient(to top,#2f0c0c, #6495ED, #2f0c0c);
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add some space between cards */
+  }
+  
+  .card:last-child {
+    margin-bottom: 0; /* Remove margin from last card */
+  }
+  
+  .card h2 {
+    margin-top: 0;
+    color: aliceblue;
+  }
+  
+  .card p {
+    margin-bottom: 0;
+    color: aliceblue;
+    font-size: 20px;
+    
+  }
+
+
+  .choose{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .choose h2{
+    color: aliceblue;
+  }
+
+  .new-left-card {
+    flex: 1; /* Take up remaining space */
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+
+

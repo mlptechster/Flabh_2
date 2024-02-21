@@ -1,0 +1,68 @@
+/* navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent; /* Transparent background */
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Aligns navbar-left to the center */
+  margin-right: auto;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+  cursor: pointer;
+  color: white; /* Change color as per your design */
+}
+
+.nav-item:hover{
+  background-color: rgb(146, 143, 143);
+  border-radius: 7px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+   
+  }
+
+  .navbar-left,
+  .navbar-right {
+    margin: 0;
+   /* Remove margin for centering in smaller screen */
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 20px; /* Add margin at the top */
+  }
+
+  .nav-item {
+    margin: 5px 0; /* Adjust margin for smaller screens */
+  }
+}
